@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;700;900&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+/* general */
+* {
+    font-family: "Rubik";
+}
+
+.disp-600 {
+    font-weight: 600;
+}
+
+body {
+    background-color: #252934;
+}
+
+.avatar {
+    height: 350px;
+    width: auto;
+}
+
+.circ {
+    width: 90px;
+    height: 90px;
+    background-color: #17A2B8;
+    border-radius: 50%;
+}
+
+.skill-r {
+    margin-left: 5%;
+}
+
+.font-color {
+    color: #17A2B8 !important;
+}
+
+/* banner */
+.banner {
+    background-image: url("/images/banner-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 16%;
+}
+
+.banner-content {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-greet {
+    font-weight: 600;
+}
+
+.span-text-2 {
+    color: #fff;
+}
+
+.view-work-btn {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #fff;
+}
+
+.view-work-btn:hover {
+    background-color: #00909c;
+    border: #00909c;
+    color: #fff;
+}
+
+.rotate-arrow {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+}
+
+.work-btn-txt {
+    margin: 0;
+    padding: 10px 15px;
+}
+
+/* nav */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+.navbar-toggler{
+  border: 2px solid #fff !important;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+.dropdown-menu a.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+    background-color: #404040;
+}
+
+.nav-link:hover, .nav-menu:hover {
+    color: #00909c !important;
+}
+
+
+/* about */
+#about {
+    padding: 5% 5% 0 5%;
+    color: #fff;
+}
+
+.about-hr {
+    width: 9%;
+    height: 3px !important;
+    color: #17A2B8;
+}
+
+.about-content-container {
+    padding: 5% 10%;
+}
+
+.cv-btn {
+    padding: 10px 15px;
+    background-color: inherit;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.cv-btn:hover {
+    background-color: #00909c;
+    border: 2px solid #00909c;
+}
+
+/* skills */
+#skills {
+    color: #fff;
+    padding: 5% 5% 0 5%;
+}
+
+.skills-content {
+    padding: 5%;
+}
+
+.skills-hr {
+    width: 8%;
+    height: 3px !important;
+    color: #17A2B8;
+}
+
+.soft-skills-container, .tech-skills-container {
+    width: 50%;
+}
+
+.img-icon {
+    height: 60px;
+    width: auto;
+}
+
+/* projects */
+#projects {
+    padding: 5% 5% 0 5%;
+    color: #fff;
+}
+
+.projects-hr {
+    width: 15%;
+    height: 3px !important;
+    color: #17A2B8;
+}
+
+.projects-content {
+    padding: 5%;
+}
+
+.proj-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.proj-img {
+    width: 500px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.visit-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* contact */
+#contact {
+    padding: 5%;
+    color: #fff;
+}
+
+.contact-hr {
+    width: 13%;
+    height: 3px !important;
+    color: #17A2B8;
+}
+
+.contact-content {
+    padding: 2%;
+}
+
+.form-cont {
+    width: 100% !important;
+}
+
+.form-style {
+    max-width: 500px;
+    color: #fff !important;
+}
+
+.text-area::placeholder {
+    color: #6C757D !important;
+}
+
+.submit-btn {
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.submit-btn:hover {
+    background-color: #17A2B8;
+    border: 2px solid #17A2B8;
+}
+
+/* footer */
+#footer {
+    padding: 5%;
+    background-color: #1b242f;
+    color: #fff;
+}
+
+.footer-links {
+    width: 25%;
+}
+
+.social-a {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #262F38;
+}
+
+.fb:hover {
+    background-color: #3b5998;
+}
+
+.ig:hover {
+    background-color: #d6249f;
+}
+
+.twitter:hover {
+    background-color: #00acee;
+}
+
+.github:hover {
+    background-color: #333;
+}
+
+.linkedin:hover {
+    background-color: #0072b1;
+}
+
+.beam-me {
+    font-size: smaller;
+    color: #1b242f;
+}
+
+.beam-me:hover {
+    color: #fff;
+}
