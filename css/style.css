@@ -106,7 +106,41 @@ body {
     color: #00909c !important;
 }
 
+/* projects */
+#projects {
+    padding: 5% 5% 0 5%;
+    color: #fff;
+}
 
+.projects-hr {
+    width: 15%;
+    height: 3px !important;
+    color: #17A2B8;
+}
+
+.projects-content {
+    padding: 5%;
+}
+
+.proj-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.proj-img {
+    width: 500px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.visit-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (width >= 768px) {
 /* about */
 #about {
     padding: 5% 5% 0 5%;
@@ -158,40 +192,6 @@ body {
 .img-icon {
     height: 60px;
     width: auto;
-}
-
-/* projects */
-#projects {
-    padding: 5% 5% 0 5%;
-    color: #fff;
-}
-
-.projects-hr {
-    width: 15%;
-    height: 3px !important;
-    color: #17A2B8;
-}
-
-.projects-content {
-    padding: 5%;
-}
-
-.proj-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.proj-img {
-    width: 500px;
-    height: auto;
-    border-radius: 7px;
-}
-
-.visit-link {
-    color: #fff;
-    text-decoration: none;
 }
 
 /* contact */
@@ -280,4 +280,73 @@ body {
 .beam-me {
     font-size: smaller;
     color: #fff;
+}
+}
+
+@media (width < 768px) {
+    /* about */
+    #about {
+        color: #fff;
+        padding: 5%;
+    }
+    .about-hr {
+        width: 9%;
+        height: 3px;
+        color: #17A2B8;
+    }
+    .about-rev {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .avatar {
+        height: 240px;
+        width: auto;
+        margin: 9%;
+    }
+    .dl-cv-cont {
+        display: flex;
+        justify-content: center;
+    }
+    .cv-btn {
+        background-color: inherit;
+        border: 2px solid #fff;
+        color: #fff;
+        padding: 10px 15px;
+    }
+
+    /* skills */
+    #skills {
+        color: #fff;
+        padding: 5%;
+    }
+    .skills-hr {
+        width: 9%;
+        height: 3px;
+        color: #17A2B8;
+    }
+    .skills-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .skills-txt {
+        padding: 5%;
+    }
+    .tech-skills-container {
+        padding: 5% 0;
+    }
+    .frontend-img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img-icon {
+        height: 60px;
+    width: auto;
+    }
+    .circ {
+    width: 60px;
+    height: 60px;
+    }
+    .skills-icon {
+        font-size: 25px;
+    }
 }
