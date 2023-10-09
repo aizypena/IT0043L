@@ -279,9 +279,5 @@ body {
 
 .beam-me {
     font-size: smaller;
-    color: #1b242f;
-}
-
-.beam-me:hover {
     color: #fff;
 }
