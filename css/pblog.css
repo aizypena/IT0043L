@@ -1,5 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;700;900&family=Rubik:wght@400;500;600;700;800;900&display=swap');
 
-body {
-    background-color: #252934;
+* {
+    font-family: "Rubik";
 }
+
+body {
+    background-color: #252934 !important;
+}
+
+/*txt-color*/
+.txt-fff {
+    color: #fff;
+}
+.txt-2 {
+    color: #1782b8;
+}
+
+.ul-top {
+    list-style: none;
+}
+
+.ul-cont {
+    width: 30%;
+    padding: 2%;
+}
+
+.a-txt {
+    text-decoration: none;
+    color: #fff;
+}
+
+.a-txt:hover {
+    color: #1782b8;
+}
+
+/* home */
+.cont-50 {
+    width: 50%;
+    padding: 2% 3%;
+}
+
+#light-dark {
+    font-size: 25px;
+}
+
+.p-space {
+    padding: 3% 0;
+}
+
+.avatar-img {
+    height: 40vh;
+    width: auto;
+}
+
+/* interests */
+.cats-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.pets-container {
+    width: 40%;
+}
+
+#pets-display {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    overflow: hidden; /* To clip the image within the container */
+}
+
+#pets-display img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Scale and crop the image to fit the container */
+}
+
+
+/* NOOOOTE: need alert (pics) */
