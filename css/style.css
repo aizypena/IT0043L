@@ -41,6 +41,7 @@ body {
     background-size: cover;
     color: #fff;
     padding: 16%;
+    height: 100vh;
 }
 
 .banner-content {
@@ -67,7 +68,7 @@ body {
 
 .view-work-btn:hover {
     background-color: #00909c;
-    border: #00909c;
+    border: 2px solid #00909c;
     color: #fff;
 }
 
