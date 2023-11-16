@@ -1,0 +1,70 @@
+/* general */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;700;900&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: "Rubik" !important;
+}
+
+body {
+    background-color: #252934 !important;
+}
+
+.txt-000 {
+    color: #000;
+}
+
+.txt-fff {
+    color: #fff;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.color-1 {
+    color: #17A2B8;
+}
+
+/* header */
+#header {
+    padding: 2% 0 0 0;
+    background-color: #252934;
+}
+
+/* home */
+#home {
+    padding: 0 5%;
+    height: 100vh;
+}
+
+.home-left, .home-right {
+    width: 50%;
+}
+
+.home-main-container {
+    height: 100vh;
+}
+
+.home-mypic {
+    max-height: 700px;
+    width: auto;
+}
+
+.rocket {
+    max-height: 90px;
+    width: auto;
+    animation: tilt-shaking .5s infinite;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* about-me */
+#about-me {
+    padding: 5%;
+}
