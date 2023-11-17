@@ -18,7 +18,7 @@
 
 <body>
     <div class="main-container">
-        <header id="header" class="container">
+        <header id="header" class="sticky-top">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container">
                     <a class="navbar-brand" href="#">
@@ -30,27 +30,27 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#home">
-                                    <p class="mb-0 nav-menu" style="color: #fff;">HOME</p>
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <p class="mb-0 nav-menu hover-underline" style="color: #fff;">HOME</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about">
-                                    <p class="mb-0 nav-menu" style="color: #fff;">ABOUT ME</p>
+                                <a class="nav-link" href="#about-me">
+                                    <p class="mb-0 nav-menu hover-underline" style="color: #fff;">ABOUT ME</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#skills">
-                                    <p class="mb-0 nav-menu" style="color: #fff;">INTERESTS</p>
+                                <a class="nav-link" href="#interests">
+                                    <p class="mb-0 nav-menu hover-underline" style="color: #fff;">INTERESTS</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#projects">
-                                    <p class="mb-0 nav-menu" style="color: #fff;">HOBBIES</p>
+                                <a class="nav-link" href="#hobbies">
+                                    <p class="mb-0 nav-menu hover-underline" style="color: #fff;">HOBBIES</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/index.html" target="_blank">
+                                <a class="nav-link hover-underline" href="/index.html" target="_blank">
                                     <p class="mb-0 nav-menu" style="color: #fff;">PORTFOLIO</p>
                                 </a>
                             </li>
@@ -77,12 +77,40 @@
         </section>
 
         <section id="about-me" class="container">
-            <div class="about-me-main-container">
-
+            <div class="about-me-main-container container">
+                <div class="about-me-txt mb-3">
+                    <p class="txt-fff display-4 fw-600 text-center">ABOUT ME</p>
+                </div>
+                <div>
+                    <p id="line1" class="txt-type-effect txt-fff"></p>
+                    <p id="line2" class="txt-type-effect txt-fff"></p>
+                    <p id="line3" class="txt-type-effect txt-fff"></p>
+                    <p id="line4" class="txt-type-effect txt-fff"></p>
+                </div>
             </div>
         </section>
 
-        <section id="interests"></section>
+        <section id="interests" class="container">
+            <div class="interests-main-container">
+                <div class="interests-txt m-3">
+                    <p class="txt-fff text-center display-4 fw-600">WHAT INTERESTS ME?</p>
+                </div>
+                <div class="interests-pic-container d-flex justify-content-between flex-wrap">
+                    <div class="">
+                        <img src="/images/art.jpg" alt="Art" class="interests-pic">
+                        <p class="txt-fff text-center mt-3 interests-pic-txt">Art</p>
+                    </div>
+                    <div>
+                        <img src="/images/music.jpg" alt="Music" class="interests-pic">
+                        <p class="txt-fff text-center mt-3 interests-pic-txt">Music</p>
+                    </div>
+                    <div>
+                        <img src="/images/travel.jpg" alt="Travel" class="interests-pic">
+                        <p class="txt-fff text-center mt-3 interests-pic-txt">Travel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section id="hobbies"></section>
 

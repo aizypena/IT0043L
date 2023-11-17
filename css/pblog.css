@@ -21,8 +21,16 @@ body {
     font-weight: 700 !important;
 }
 
+.fw-600 {
+    font-weight: 600 !important;
+}
+
 .color-1 {
     color: #17A2B8;
+}
+
+.hover-underline:hover {
+    text-decoration: underline !important;
 }
 
 /* header */
@@ -46,7 +54,7 @@ body {
 }
 
 .home-mypic {
-    max-height: 700px;
+    max-height: 680px;
     width: auto;
 }
 
@@ -67,4 +75,28 @@ body {
 /* about-me */
 #about-me {
     padding: 5%;
+}
+
+.txt-type-effect {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* interests */
+#interests {
+    padding: 5%;
+}
+
+.interests-pic {
+    max-height: 360px;
+}
+
+.interests-pic-txt {
+    font-size: 25px;
 }
