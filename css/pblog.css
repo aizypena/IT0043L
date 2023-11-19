@@ -87,6 +87,12 @@ body {
     }
 }
 
+@media screen and (max-width: 991px) {
+    .home-mypic {
+        display: none;
+    }
+}
+
 /* about-me */
 #about-me {
     padding: 5%;
@@ -121,14 +127,29 @@ body {
     padding: 5%;
 }
 
+.hobbies-container {}
+
+.hobbies {
+    width: 150px;
+    height: 150px;
+    background-color: #17A2B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
 /* footer */
 #footer {
-    padding: 7% 5%;
+    padding: 7% 5% 1% 5%;
     background-color: #1b242f;
 }
 
 .social-container {
     max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .socials {
@@ -139,6 +160,7 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    margin: 5px;
 }
 
 .social-1:hover {
@@ -169,6 +191,11 @@ body {
     color: #17A2B8;
 }
 
-.copy-icon {
-    cursor: pointer;
+.p-blog:hover {
+    cursor: default;
+    color: #fff;
+}
+
+.footer-links {
+    width: 70%;
 }
