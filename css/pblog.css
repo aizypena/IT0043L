@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;700;900&family=Rubik:wght@400;500;600;700;800;900&display=swap');
 
 * {
-    font-family: "Rubik" !important;
+    font-family: "Rubik";
 }
 
 body {
@@ -45,7 +45,8 @@ body {
     height: 100vh;
 }
 
-.home-left, .home-right {
+.home-left,
+.home-right {
     width: 50%;
 }
 
@@ -65,11 +66,25 @@ body {
 }
 
 @keyframes tilt-shaking {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(5deg); }
-    50% { transform: rotate(0deg); }
-    75% { transform: rotate(-5deg); }
-    100% { transform: rotate(0deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 /* about-me */
@@ -99,4 +114,61 @@ body {
 
 .interests-pic-txt {
     font-size: 25px;
+}
+
+/* hobbies */
+#hobbies {
+    padding: 5%;
+}
+
+/* footer */
+#footer {
+    padding: 7% 5%;
+    background-color: #1b242f;
+}
+
+.social-container {
+    max-width: 300px;
+}
+
+.socials {
+    background-color: #252934;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-1:hover {
+    background-color: #0966FF;
+}
+
+.social-2:hover {
+    background-color: #D32E79;
+}
+
+.social-3:hover {
+    background-color: #0C61BF;
+}
+
+.social-4:hover {
+    background-color: #08a0e9;
+}
+
+.social-5:hover {
+    background-color: #1F2328;
+}
+
+.social-icons {
+    font-size: 25px;
+}
+
+.footer-link-txt:hover {
+    color: #17A2B8;
+}
+
+.copy-icon {
+    cursor: pointer;
 }
