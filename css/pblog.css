@@ -127,7 +127,9 @@ body {
     padding: 5%;
 }
 
-.hobbies-container {}
+.hobbies-icon {
+    font-size: 45px;
+}
 
 .hobbies {
     width: 150px;
@@ -137,6 +139,10 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+}
+
+.hobbies-cont {
+    width: 33%;
 }
 
 /* footer */
