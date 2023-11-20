@@ -50,6 +50,18 @@ body {
     padding: 2% 0 0 0;
 }
 
+.laning-area {
+    padding: 3% 0;
+}
+
+.lane-img {
+    width: 700px;
+}
+
+.guide-main {
+    padding: 0 5%;
+}
+
 /* roles */
 #roles {
     padding: 5%;
@@ -79,11 +91,6 @@ body {
 
 .roles-main-container {
     padding: 3% 0;
-}
-
-/* lane */
-#lane {
-    padding: 5%;
 }
 
 /* footer */
@@ -138,7 +145,7 @@ body {
     color: #17A2B8;
 }
 
-.p-blog:hover {
+.g-blog:hover {
     cursor: default;
     color: #fff;
 }
