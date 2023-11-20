@@ -5,11 +5,216 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Blog</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">\
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/css/gblog.css">
 </head>
 
 <body>
-    <i class="fa-brands fa-facebook-f" style="color: #000000;"></i>
+
+    <div class="main-container">
+        <header id="header" class="sticky-top" style="background-color: #252934;">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="/images/mlbb.png" alt="MLBB" style="height: 80px;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <p class="mb-0 nav-menu" style="color: #fff;">GUIDE</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#roles">
+                                    <p class="mb-0 nav-menu" style="color: #fff;">ROLES</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#lane">
+                                    <p class="mb-0 nav-menu" style="color: #fff;">LANING</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#items">
+                                    <p class="mb-0 nav-menu" style="color: #fff;">ITEMS</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="guide" class="container">
+            <div class="home-main-container">
+                <div>
+                    <h1 class="txt-fff">WELCOME TO MOBILE LEGENDS!</h1>
+                </div>
+                <div class="home-cont">
+                    <p class="txt-fff">Mobile Legends: Bang Bang is a thrilling online mobile game that is categorized
+                        as a MOBA
+                        (Multiplayer Online Battle Arena). It currently has more than 100 million downloads and a rating
+                        of almost five stars from 12 million users in Google Play. With 68 heroes to choose from, the
+                        players won’t easily get bored in this game if they are into MOBA games.</p>
+                    <p class="txt-fff">
+                        The format of Mobile Legends followed the tradition of the earliest MOBA PC game DOTA (Defense
+                        of the Ancients) but is less sophisticated and has a more mobile-friendly approach. This is one
+                        of those games that fulfilled the dream of most PC MOBA players of having a mobile version that
+                        can easily be played almost anywhere.
+                    </p>
+                </div>
+                <div class="jungle-area">
+                    <h3 class="txt-fff">Jungle Area</h3>
+                    <div class="turt-lord container txt-fff">
+                        <h5>THE TURTLE AND THE LORD</h5>
+                        <img src="/images/Lord-and-Turtle-in-Mobile-Legends.avif" alt="Lord and Turtle"
+                            class="jungle-img">
+                        <p>There are two large monsters Mobile Legends players need to know; <b>Turtle</b> and
+                            <b>Lord</b>.
+                        </p>
+                        <div>
+                            <h5>TURTLE</h5>
+                            <ul>
+                                <li>Appears after three minutes and leaves after seven minutes of game time
+                                </li>
+                                <li>Killing the Turtle grants a Turtle buff to the killer</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>LORD</h5>
+                            <ul>
+                                <li>Appears after nine minutes of game time</li>
+                                <li>The Lord will fight alongside the killer's team, opening a chance to push the
+                                    opponents' Tower</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="txt-fff buffs">
+                        <h5>THE BUFFS AND THE CREEPS</h5>
+                        <img src="/images/buffs.avif" alt="Buffs and Creeps" class="jungle-img">
+                        <p>Just like a typical MOBA, Mobile Legends has several buffs the players can utilize. The first
+                            two are commonly called the <b>Blue</b> and <b>Red</b> buff.</p>
+                        <div>
+                            <ul>
+                                <li>
+                                    <b>Blue buff </b> grants cooldown and Mana cost reduction
+                                </li>
+                                <li>
+                                    <b>Red buff </b>can slow the enemy while dealing extra damage
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Some heroes can benefit greatly from these buffs while others don't need it at all.
+                                Therefore, players should let the heroes that need the buff take it. Other than that,
+                                two other creeps grant a smaller buff; The <b>Crab</b> and <b>Lithowanderer</b>.</p>
+                            <li>
+                                <b>Gold buff</b>, granted by the Crab , yields 10 Gold every 3s to the killer
+                            </li>
+                            <li>
+                                Killing Lithowanderer spawn a <b>Walkie Grass</b>, which will follow the killer,
+                                restoring 1% Mana every second to nearby allied heroes
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roles" class="container txt-fff">
+            <h3>GAME ROLES</h3>
+            <div class="roles-main-container">
+                <div id="game-roles" class="game-roles">
+                    <img src="/images/assassin.webp" alt="Assassin" class="roles role-1">
+                    <img src="/images/tank.webp" alt="Tank" class="roles role-2">
+                    <img src="/images/fighter.webp" alt="Fighter" class="roles role-3">
+                    <img src="/images/marksman.webp" alt="Marksman" class="roles role-4">
+                    <img src="/images/mage.webp" alt="Mage" class="roles role-5">
+                    <img src="/images/support.webp" alt="Support" class="roles role-6">
+                </div>
+                <div id="role-description" class="txt-fff">
+                </div>
+            </div>
+        </section>
+
+        <section id="lane">
+        </section>
+
+        <section id="items">
+        </section>
+
+        <footer id="footer">
+            <div class="container footer-main-container">
+                <div class="social-links-main-container">
+                    <div class="social-container mx-auto">
+                        <a href="https://web.facebook.com/p.azyluJ00/" class="socials social-1" target="_blank">
+                            <i class="fa-brands fa-facebook-f social-icons" style="color: #ffffff;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/aizaiahh/" class="socials social-2" target="_blank">
+                            <i class="fa-brands fa-instagram social-icons" style="color: #ffffff;"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/julyza-pe%C3%B1a/" class="socials social-3"
+                            target="_blank">
+                            <i class="fa-brands fa-linkedin-in social-icons" style="color: #ffffff;"></i>
+                        </a>
+                        <a href="https://twitter.com/aizkream" class="socials social-4" target="_blank">
+                            <i class="fa-brands fa-twitter social-icons" style="color: #ffffff;"></i>
+                        </a>
+                        <a href="https://github.com/aizypena" class="socials social-5" target="_blank">
+                            <i class="fa-brands fa-github social-icons" style="color: #ffffff;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links d-flex justify-content-between mt-5 mx-auto flex-wrap">
+                    <div>
+                        <p class="txt-fff">PAGE CONTENT</p>
+                        <div class="page-content d-flex flex-column">
+                            <a href="#home" class="text-decoration-none txt-fff footer-link-txt">Home</a>
+                            <a href="#about-me" class="text-decoration-none txt-fff footer-link-txt">About Me</a>
+                            <a href="interests" class="text-decoration-none txt-fff footer-link-txt">My Interests</a>
+                            <a href="hobbies" class="text-decoration-none txt-fff footer-link-txt">My Hobbies</a>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="txt-fff">GET IN TOUCH</p>
+                        <div>
+                            <p class="txt-fff m-0"> <i class="fa-regular fa-phone" style="color: #17a2b8;"></i>
+                                +639957632985</p>
+                            <p class="txt-fff m-0"> <i class="fa-regular fa-envelope" style="color: #17a2b8;"></i>
+                                jbpena101@gmail.com</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="txt-fff">BLOGS</p>
+                        <div class="page-content d-flex flex-column">
+                            <a href="#" class="text-decoration-none txt-fff disabled p-blog">Personal Blog</a>
+                            <a href="/html/game-blog.html" class="text-decoration-none txt-fff footer-link-txt"
+                                target="_blank">Game Blog</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="creator-container p-5">
+                    <hr class="txt-fff">
+                    <div>
+                        <p class="txt-fff text-center m-0">&copy; Julyza Peña</p>
+                        <p class="txt-fff text-center m-0">2023</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/js/game.js"></script>
 </body>
 
 </html>

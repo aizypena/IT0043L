@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;700;900&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: "Rubik";
+}
+
+body {
+    background-color: #252934;
+}
+
+.nav-menu:hover {
+    text-decoration: underline;
+}
+
+.txt-fff {
+    color: #fff;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.color-1 {
+    color: #17A2B8;
+}
+
+/* home */
+#home {
+    padding: 5%;
+}
+
+.home-cont {
+    padding: 3% 0 0 0;
+}
+
+.jungle-area {
+    padding: 2% 0 0 0;
+}
+
+.jungle-img {
+    width: 700px;
+    height: auto;
+}
+
+.buffs {
+    padding: 2% 0 0 0;
+}
+
+/* roles */
+#roles {
+    padding: 5%;
+}
+
+#role-description {
+    margin: 2% 0 0 0;
+}
+
+.game-roles {
+    display: flex;
+    justify-content: center;
+}
+
+.roles {
+    margin: 0 20px;
+}
+
+.role-1,
+.role-2,
+.role-3,
+.role-4,
+.role-5,
+.role-6 {
+    cursor: pointer;
+}
+
+.roles-main-container {
+    padding: 3% 0;
+}
+
+/* lane */
+#lane {
+    padding: 5%;
+}
+
+/* footer */
+#footer {
+    padding: 7% 5% 1% 5%;
+    background-color: #1b242f;
+}
+
+.social-container {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.socials {
+    background-color: #252934;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.social-1:hover {
+    background-color: #0966FF;
+}
+
+.social-2:hover {
+    background-color: #D32E79;
+}
+
+.social-3:hover {
+    background-color: #0C61BF;
+}
+
+.social-4:hover {
+    background-color: #08a0e9;
+}
+
+.social-5:hover {
+    background-color: #1F2328;
+}
+
+.social-icons {
+    font-size: 25px;
+}
+
+.footer-link-txt:hover {
+    color: #17A2B8;
+}
+
+.p-blog:hover {
+    cursor: default;
+    color: #fff;
+}
+
+.footer-links {
+    width: 70%;
+}
